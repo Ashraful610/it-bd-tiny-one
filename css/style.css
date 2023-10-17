@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+header{
+    width: 100vw;
+    min-height: fit-content;
+    max-height: 100px;
+    background-color: #fcdb00;
+}
+nav .nav-icon i{
+    font-size: 25px;
+}
+nav .nav-logo{
+    display: flex;
+}
+nav .nav-logo img{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+nav .nav-logo h3{
+    font-weight: bold;
+}
+nav .nav-media i {
+    font-size: 25px;
+    margin: 0 10px;
 }
