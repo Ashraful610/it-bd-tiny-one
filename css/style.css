@@ -23,9 +23,9 @@ nav .nav-logo{
     display: flex;
 }
 nav .nav-logo img{
-    width: 40px;
-    height: 40px;
-    margin: 0 20px;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
 }
 nav .nav-logo h3{
     font-weight: bold;
@@ -53,11 +53,13 @@ nav .nav-media i {
     align-items: center;
     padding: 0 100px;
     text-align: center;
-    /* background-color: green; */
 }
 .banner-content h2{
     font-weight: bold;
     margin-bottom: 20px;
+}
+.banner-content p{
+    color: #313841;
 }
 .banner-content .system-icon{
     display: flex;
@@ -126,9 +128,34 @@ nav .nav-media i {
     margin-right: 10px;
 }
 /* ======================= footer =============== */
+@media screen and (max-width:768px){
+ .banner-content{
+    width: 80%;
+ }
+}
 @media screen and (max-width: 576px) {
+    /* ---------- header -------------- */
     nav .nav-media{
         display: none;
+    }
+    /* ----------------- banner ------------- */
+    .banner-content{
+        width: 90%;
+        padding: 0 ;
+    }
+    .banner-content h2{
+        margin-bottom: 10px;
+    }
+    .banner-content .system-icon{
+        display: flex;
+        margin-top:5px ;
+    }
+    .banner-content .system-icon .icon-div {
+        width: 40px;
+        height: 40px;
+    }
+    .banner-content .system-icon .icon-div i{
+        font-size: 20px;
     }
 }
   
