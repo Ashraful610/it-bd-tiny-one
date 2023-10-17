@@ -36,11 +36,11 @@ nav .nav-media i {
 }
 /* ======================== banner ==================== */
 .banner{
-    height: 100vh;
+    height: calc(100vh - 90px);
     width: 100%;
     background-color: #fcdb00;
 }
-.banner-contents{
+.banner-container{
     height: 100%;
     display: flex;
     justify-content: center;
@@ -53,6 +53,7 @@ nav .nav-media i {
     align-items: center;
     padding: 0 100px;
     text-align: center;
+    /* background-color: green; */
 }
 .banner-content h2{
     font-weight: bold;
@@ -125,3 +126,9 @@ nav .nav-media i {
     margin-right: 10px;
 }
 /* ======================= footer =============== */
+@media screen and (max-width: 576px) {
+    nav .nav-media{
+        display: none;
+    }
+}
+  
