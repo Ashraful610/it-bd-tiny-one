@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 body{
+    max-width: 1280px;
+    margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
 }
+/* ==================================== header ===================== */
 header{
-    width: 100vw;
+    width: 100%;
     min-height: fit-content;
     max-height: 100px;
     background-color: #fcdb00;
@@ -31,3 +34,94 @@ nav .nav-media i {
     font-size: 25px;
     margin: 0 10px;
 }
+/* ======================== banner ==================== */
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-color: #fcdb00;
+}
+.banner-contents{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    text-align: center;
+}
+.banner-content h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-content .system-icon{
+    display: flex;
+    margin-top:10px ;
+}
+.banner-content .system-icon .icon-div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+.banner-content .system-icon .icon-div i{
+    font-size: 25px;
+}
+/* ===================== feature section  ============== */
+.feature-section{
+    min-height: 100vh;
+    max-height: fit-content;
+    width: 100%;
+}
+.feature-section > div{
+    height: 100%;
+}
+.feature-contents{
+    height: 100%;
+    padding: 50px 0;
+}
+.feature-contents .feature-title{
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-details{
+   height: 100%;
+}
+.feature-details .details-content{
+    padding: 30px 40px;
+}
+.feature-details .details-content div{
+    margin-bottom: 80px;
+}
+.feature-details .details-content div p{
+    color: #8a8a8a;
+}
+.feature-details .mobile-design{
+    height: 450px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+.feature-details .mobile-design .white-screen{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-details .mobile-design .white-screen img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+/* ======================= footer =============== */
