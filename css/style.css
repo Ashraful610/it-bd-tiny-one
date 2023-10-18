@@ -173,3 +173,10 @@ footer{
     text-transform: uppercase;
     font-weight: bold;
 }
+.footer-contact{
+    padding: 50px 0;
+}
+.footer-contact ul li{
+    list-style: none;
+    color: white;
+}
