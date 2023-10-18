@@ -1,31 +1,60 @@
-/* ======================= footer =============== */
+@media screen and (max-width:1024px) {
+    /* ------------- feature section ----------- */
+    .feature-details-container .details-content{
+        padding: 0 20px;
+    }
+}
 @media screen and (max-width:768px){
+    /* ----------- banner ------------ */
     .banner-content{
        width: 80%;
     }
-   }
-   @media screen and (max-width: 576px) {
-       /* ---------- header -------------- */
-       nav .nav-media{
-           display: none;
-       }
-       /* ----------------- banner ------------- */
-       .banner-content{
-           width: 90%;
-           padding: 0 ;
-       }
-       .banner-content h2{
-           margin-bottom: 10px;
-       }
-       .banner-content .system-icon{
-           display: flex;
-           margin-top:5px ;
-       }
-       .banner-content .system-icon .icon-div {
-           width: 40px;
-           height: 40px;
-       }
-       .banner-content .system-icon .icon-div i{
-           font-size: 20px;
-       }
-   }
+    /* ---------- feature ------------- */
+    .feature-container .feature-title{
+        width: 80%;
+        padding: 20px 0;
+    }
+    .feature-details-container {
+        padding:  0px;
+    }
+    .feature-details-container .details-content{
+        height: fit-content;
+        padding: 0 40px;
+    }
+    .feature-details-container .mobile-design{
+        margin-bottom: 40px;
+    }
+ }
+@media screen and (max-width: 576px) {
+    /* ---------- header -------------- */
+     nav .nav-media{
+       display: none;
+     }
+    /* ----------------- banner ------------- */
+    .banner-content{
+        width: 90%;
+        padding: 0 ;
+    }
+    .banner-content h2{
+        margin-bottom: 10px;
+    }
+    .banner-content .system-icon{
+        display: flex;
+        margin-top:5px ;
+    }
+    .banner-content .system-icon .icon-div {
+        width: 40px;
+        height: 40px;
+    }
+    .banner-content .system-icon .icon-div i{
+        font-size: 20px;
+    }
+    /* --------------- feature section ------------------ */
+    .feature-container .feature-title{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .feature-details-container .details-content{
+        padding: 0 20px;
+    }
+}

@@ -80,50 +80,50 @@ nav .nav-media i {
     font-size: 25px;
 }
 /* ===================== feature section  ============== */
-.feature-section{
+.feature-container{
     min-height: 100vh;
     max-height: fit-content;
-    width: 100%;
+    padding: 20px 0;
 }
-.feature-section > div{
-    height: 100%;
-}
-.feature-contents{
-    height: 100%;
-    padding: 50px 0;
-}
-.feature-contents .feature-title{
+.feature-container .feature-title{
     width: 60%;
     padding: 20px;
     text-align: center;
     margin: 0 auto;
 }
-.feature-details{
-   height: 100%;
+.feature-details-container{
+   margin: 0;
+   padding: 20px 0;
+   height: fit-content;
 }
-.feature-details .details-content{
-    padding: 30px 40px;
+.feature-details-container .details-content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
 }
-.feature-details .details-content div{
-    margin-bottom: 80px;
+.feature-details-container .details-content div{
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
-.feature-details .details-content div p{
+.feature-details-container .details-content div p{
     color: #8a8a8a;
 }
-.feature-details .mobile-design{
-    height: 450px;
+.feature-details-container .mobile-design{
+    height: 500px;
     background-color: black;
     border-radius: 20px;
-    padding: 20px 10px;
+    padding: 40px 10px;
 }
-.feature-details .mobile-design .white-screen{
+.feature-details-container .mobile-design .white-screen{
     height: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.feature-details .mobile-design .white-screen img{
+.feature-details-container .mobile-design .white-screen img{
     width: 60px;
     height: 60px;
     margin-right: 10px;
