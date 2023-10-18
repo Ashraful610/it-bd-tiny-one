@@ -24,6 +24,10 @@
     .feature-details-container .mobile-design{
         margin-bottom: 40px;
     }
+    /* ----------- footer ----------- */
+    .footer-heading{
+        width: 80%;
+    }
  }
 @media screen and (max-width: 576px) {
     /* ---------- header -------------- */
@@ -56,5 +60,13 @@
     }
     .feature-details-container .details-content{
         padding: 0 20px;
+    }
+    /* ------------------- footer ---------------- */
+    .footer-heading{
+        width: 100%;
+        padding: 0px;
+    }
+    .footer-input-div input{
+        margin-right: 10px;
     }
 }
